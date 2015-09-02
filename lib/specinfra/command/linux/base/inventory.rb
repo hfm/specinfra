@@ -27,5 +27,8 @@ class Specinfra::Command::Linux::Base::Inventory < Specinfra::Command::Base::Inv
     def get_kernel
       'uname -s -r'
     end
+
+    def get_block_device
+    end
   end
 end
